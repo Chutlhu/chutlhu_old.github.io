@@ -1,9 +1,31 @@
-name: Solar Theme
-url: http://example.org
-description: A stylish blog using the Solarized color palette
+###############
+# Site settings
 
-permalink: /:year/:month/:day/:title/
+name: Diego Di Carlo
+email: diego.di-carlo@inria.rf
+url: http://example.org
+description: Avangarde Post Black Jazz Ph.D. Student with a wholehearted taste for Brutal Death Metal and Cthulhu.
+
+
+###########################3
+# Jekyll Settings
+include: ['_pages']
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+
+# Pagination
 paginate: 10
+permalink: /:year/:month/:day/:title/
+
+plugins: [jekyll-paginate]
 
 gems: [jekyll-paginate]
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+
+
+####################
+# Social Integration
+github_username: # your GitHub user name
+linkedin_username: # your LinkedIn user name
+scholar_userid: # your Google Scholar ID
+orcid_id: # your ORCID ID
+
+
