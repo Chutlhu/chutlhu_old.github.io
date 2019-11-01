@@ -4,9 +4,41 @@ title: About
 permalink : /about/
 ---
 
-This is where you would but a short bio, and/or a description of your site. It also serves as an example of how to set up a standalone page. For example:
+<img src="/images/echoes.jpg" class="right" width=150px/>
 
-<img src="/images/shakespeare.png" class="right" />
-**William Shakespeare** (26 April 1564 – 23 April 1616) was an English poet and playwright, widely regarded as the greatest writer in the English language and the world's pre-eminent dramatist. He is often called England's national poet and the "Bard of Avon". His extant works, including some collaborations, consist of about 38 plays, 154 sonnets, two long narrative poems, and a few other verses, the authorship of some of which is uncertain. His plays have been translated into every major living language and are performed more often than those of any other playwright.
+Since October 1st, 2017, I am Ph.D. candidate at [Inria](http://www.inria.fr) in the [PANAMA team](https://team.inria.fr/panama/) of the [Inria Rennes](https://www.inria.fr/centre/rennes).
 
-Shakespeare was born and brought up in Stratford-upon-Avon. At the age of 18, he married Anne Hathaway—no, not *that* Anne Hathaway—with whom he had three children.
+I am working under the supervision of [Antoine Deleforge](https://members.loria.fr/ADeleforge/) and [Nancy Bertin](https://team.inria.fr/panama/author/nbertin/) on the thesis: *Hunting Echoes for Auditory Scene Analysis*.
+
+My research interest are:
+- Machine Learning:
+  - Regression and classification
+  - Deep learning
+  - Bayesian and Latent variable models
+  - Non-negative matrix factorization
+- Auditory Scene Analysis:
+  - Room Impulse Response and Acoustic Channel Estimation and Simulators
+  - *Echo-aware* speech enhancements
+  - Room geometry reconstruction
+- Audio signal processing and inverse problems
+  - Sound source localization and separation
+  - De-reverberation
+  - Convolutive and probabilistic mixing models
+
+Download my CV here
+
+## Personal Interest
+### Music
+- Play bass and doublebass
+- Compose and performing electronic music with controller and audio device.
+- Several music projects:  jazz, pop, hip hop, rock, death-black metal, grind-core, post, prog, dubstep, EDM and IDM.
+
+### Computer
+- Sick passion for Linux configuration and customization [ unixporn ].
+- [used to] Playing MMORPG.
+- Contributing to open-source code \[ pyroomacoustics, powertabs \]
+
+### Hobby
+- DIY footpedal effect.
+- Technical, narrative and horrible and horror/gore books.
+- Mountain, snowboarding and sunsets.

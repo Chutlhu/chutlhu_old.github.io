@@ -4,7 +4,7 @@
 name: Diego Di Carlo
 email: diego.di-carlo@inria.rf
 url: http://example.org
-description: Avangarde Post Black Jazz Ph.D. Student with a wholehearted taste for Brutal Death Metal and Cthulhu.
+description: Avangarde. Post. Currently Ph.D. Student. With a wholehearted taste for Brutal Death Metal, Spiders and Cthulhu.
 
 
 ###########################3
@@ -16,10 +16,33 @@ exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 paginate: 10
 permalink: /:year/:month/:day/:title/
 
-plugins: [jekyll-paginate]
+plugins:
+  - jekyll-paginate
+  - 'jekyll/scholar'
 
 gems: [jekyll-paginate]
 
+################
+# Jekyll Scholar
+scholar:
+  style: apa
+  locale: en
+
+  sort_by: none
+  order: ascending
+
+  source: ./_bibliography
+  bibliography: papers.bib
+  bibliography_template: "{{reference}}"
+
+  replace_strings: true
+  join_strings:    true
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   Details
+
+  query: "@*"
 
 ####################
 # Social Integration
