@@ -1,0 +1,28 @@
+---
+---
+
+{{reference}}
+
+<br>
+
+<button onclick="funToogleBottom('{{key}}-bibtex')">BibTex</button>
+{% if entry.abstract %}
+<button onclick="funToogleBottom('{{key}}-abstract')">Abstract</button>
+{% endif %}
+{% if entry.link %}
+<button class="btn"><i class="fa fa-download"></i><a href="{{entry.link}}">Download</a></button>
+{% endif %}
+{% if entry.doi %}
+<button class="btn"><i class="fa fa-download"></i><a href="http://dx.doi.org/{{entry.doi}}">Download</a></button>
+{% endif %}
+
+<div id="{{key}}-bibtex" style="display:none;">
+    <code class="lenguage-bibtex">
+        <font size="2"><pre class="collapse">{{entry.bibtex}}</pre></font>
+    </code>
+</div>
+
+<div id="{{key}}-abstract" style="display:none;">
+    <p><font size="2"><i><pre class="collapse">{{entry.abstract}}</pre></i></font></p>
+</div>
+
