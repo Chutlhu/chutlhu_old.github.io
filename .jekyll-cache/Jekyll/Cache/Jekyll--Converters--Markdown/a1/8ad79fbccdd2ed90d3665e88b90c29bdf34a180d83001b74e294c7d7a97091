@@ -1,0 +1,83 @@
+I"w<h2 id="journal-articles">Journal Articles</h2>
+
+<ol class="bibliography"></ol>
+
+<h2 id="conferences-and-workshops">Conferences and Workshops</h2>
+
+<ol class="bibliography"><li><h3>Separake: Source Separation with a Little Help from Echoes</h3>
+<p>Scheibler, Robin and Di Carlo, Diego and Deleforge, Antoine and Dokmanic, Ivan<br />
+   <i>IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)</i><br />
+   2018</p>
+
+<button onclick="showTextInBoxBelow('Scheibler2017-bibtex')">BibTex</button>
+
+
+<button onclick="showTextInBoxBelow('Scheibler2017-abstract')">Abstract</button>
+
+
+
+<button onclick="openTab('https://github.com/fakufaku/separake')">
+    <font color="#859900">[Code]</font>
+</button>
+
+
+
+<button onclick="openTab('https://arxiv.org/abs/' + '1711.06805')">
+    <font color="#859900">[arXiv]</font>
+</button>
+
+
+
+
+<button onclick="openTab('http://hal.inria.fr/' + 'hal-01909531')">
+    <font color="#859900">[HAL]</font>
+</button>
+
+
+
+<button onclick="openTab('http://doi.org/' + '10.1109/ICASSP.2018.8461345')">
+    <font color="#859900">[DOI]</font>
+</button>
+
+
+<div id="Scheibler2017-bibtex" style="display:none;">
+    <div class="highlight">
+        <code>
+        @inproceedings{Scheibler2017,
+  arxiv = {1711.06805},
+  author = {Scheibler, Robin and Di Carlo, Diego and Deleforge, Antoine and Dokmanic, Ivan},
+  doi = {10.1109/ICASSP.2018.8461345},
+  journal = {IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  keywords = {Echoes,Multi-channel,NMF,Room geometry,Source separation},
+  pages = {6897--6901},
+  title = ,
+  url = {https://github.com/fakufaku/separake},
+  hal_id = {hal-01909531},
+  year = {2018}
+}
+
+        </code>
+    </div>
+</div>
+
+<div id="Scheibler2017-abstract" style="display:none;">
+        <div class="highlight">
+            <code><i>
+                It is commonly believed that multipath hurts various audio process-ing algorithms. 
+  At odds with this belief, we show that multipath infact helps sound source separation, 
+  even with very simple propagation models.
+  Unlike most existing methods, we neither ignore theroom impulse responses, nor we attempt to estimate them fully.
+  Werather  assume  that  we  know  the  positions  of  a  few  virtual  micro-phones generated 
+  by echoes and we show how this gives us enoughspatial diversity to get a performance boost over the anechoic case.
+  We show improvements for two standard algorithms—one that usesonly magnitudes of the transfer functions, and one that also uses thephases.
+  Concretely, we show that multichannel non-negative matrixfactorization aided with a small number of echoes beats the vanillavariant of the same algorithm, and that with magnitude informationonly, echoes enable separation where it was previously impossible</i>
+            </code>
+        </div>
+</div>
+
+<br /></li></ol>
+
+<h2 id="manuscripts">Manuscripts</h2>
+
+<ol class="bibliography"></ol>
+:ET
