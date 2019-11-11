@@ -18,5 +18,4 @@ permalink : /projects/
 - gREF
   
 # Notable Collaboration
-- Pyroomacoustics
-- 
+- Pyroomacoustics (_in progess_)
